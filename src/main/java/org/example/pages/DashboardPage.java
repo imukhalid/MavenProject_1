@@ -16,7 +16,7 @@ public class DashboardPage extends BasePage{
 
     public DashboardPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver, this); // Initialize elements using Page Factory
+        PageFactory.initElements(driver, this);
     }
     public String dashboardPageText() {
         WebElement heading = dashboardPageText;
